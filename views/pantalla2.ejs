@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Pantalla de Monitoreo</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo del Proyecto">
+            <h1>Nombre del Proyecto</h1>
+        </div>
+    </header>
+    <main class="container">
+        <section class="card">
+            <h2>Monitoreo de Ambiente</h2>
+            <p>Temperatura actual: <%= datos.temperatura_ambiente %> °C</p>
+            <p>Humedad actual: <%= datos.humedad_ambiente %> %</p>
+            <a href="/pantalla3" class="btn-ver-grafico">Ver Gráfico</a>
+        </section>
+        <section class="card">
+            <h2>Monitoreo del Suelo</h2>
+            <p>Humedad del suelo actual: <%= datos.humedad_suelo %> %</p>
+            <a href="/pantalla4" class="btn-ver-grafico">Ver Gráfico</a>
+        </section>
+    </main>
+</body>
+</html>

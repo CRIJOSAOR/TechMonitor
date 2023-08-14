@@ -1,0 +1,90 @@
+/* Resetear los márgenes y rellenos por defecto */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px; 
+}
+
+.logo img {
+    max-width: 70px; /* Modifica el tamaño del logo */
+}
+
+/* Ajustar tamaño del texto */
+h1, h2, p {
+    font-size: 1.5rem;
+}
+
+/* Estilos para el contenido principal */
+main.container {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.descripcion {
+    margin-bottom: 2rem;
+}
+
+.btn-comenzar {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-comenzar:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-ver-grafico {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-ver-grafico:hover {
+    background-color: #0056b3;
+}
+
+.chart h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* pantalla3.css */
+.chart-container {
+    margin-bottom: 30px; /* Puedes ajustar el valor según tus preferencias */
+}
